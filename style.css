@@ -1,0 +1,25 @@
+.gradient-background {
+    background: linear-gradient(120deg, #5c34b8, #ff4c68, #463eb0, #23d5ab);
+    background-size: 400% 400%;
+    animation: smooth-transition 8s ease infinite;
+}
+    
+    @keyframes smooth-transition {
+        0% { background-position: 0% 0%; }
+        25% { background-position: 100% 0%; }
+        50% { background-position: 100% 100%; }
+        75% { background-position: 0% 100%; }
+        100% { background-position: 0% 0%; }
+    }
+
+  
+  .profile-img {
+    border-radius: 50%;
+    height: 200px;
+    width: 200px;
+  }
+  .profile{
+    border-radius: 15%;
+    height: 300px;
+    width: 350px;
+  }
