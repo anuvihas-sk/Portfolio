@@ -1,8 +1,9 @@
-.gradient-background {
+/* .gradient-background {
     background: linear-gradient(120deg, #5c34b8, #ff4c68, #463eb0, #23d5ab);
     background-size: 400% 400%;
     animation: smooth-transition 8s ease infinite;
-}
+} */
+ 
     
     @keyframes smooth-transition {
         0% { background-position: 0% 0%; }
