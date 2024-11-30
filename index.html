@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Live Background</title>
+  <title>Live Background with Header</title>
   <style>
     body {
       margin: 0;
@@ -17,9 +17,26 @@
       height: 100vh;
       z-index: -1;
     }
+    header {
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100%;
+      background-color: rgba(0, 0, 0, 0.7); /* Semi-transparent background */
+      color: white;
+      padding: 20px;
+      text-align: center;
+      font-size: 24px;
+      font-family: Arial, sans-serif;
+      z-index: 1;
+    }
   </style>
 </head>
 <body>
+  <header>
+    Welcome 
+  </header>
+  
   <canvas id="canvas"></canvas>
   <script>
     const canvas = document.getElementById('canvas');
@@ -70,6 +87,3 @@
   </script>
 </body>
 </html>
-
-
-
